@@ -13,7 +13,7 @@ export async function middleware(request: NextRequest) {
 
     // Make a GET request to your server endpoint to get user role
     const response = await fetch(
-       "https://backend.expertbusiness.com.np//api/users/get-user-from-token",
+       "https://backend.expertbusiness.com.np/api/users/get-user-from-token",
             // "http://localhost:5007/api/users/get-user-from-token",
       {
         method: "GET",
